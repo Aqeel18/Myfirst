@@ -1,0 +1,61 @@
+#title{
+    text-align:center;
+  }
+  #description{
+    text-align:center;
+  }
+  div{
+    margin-left:100px;
+    margin-right:100px;
+    background-color:rgba(0, 0, 11, 0.8);
+  }
+    body{
+    
+    background-image:url('https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights_181624-27744.jpg?w=1060&t=st=1728115437~exp=1728116037~hmac=3fbdb1addc925be7a6dd875920d25719d66adc0b725e285fed65eb29c686aae8');
+    color:white;
+  }
+  label{
+    display:block;
+    margin: 0.5rem 0.5rem;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  fieldset{
+    padding:.5em .5em;
+    border:none;
+  }
+  #name,#email,#number{
+  min-height: 1.5em;
+  min-width:10em;
+  }
+  .inline{
+    display:inline;
+  }
+  select{
+    display:block;
+    margin:0.5rem 0.5rem;
+    height:25px;
+    width:200px;
+  }
+  input[type="radio"]{
+    margin:0.5rem 0.5rem;
+  }
+  input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color:white;
+    border-color: black;
+    min-width: 300px;}
+  textarea{
+    font-size:15px;
+    background-color:rgba(21, 21, 21, 0.5);
+    color:white;
+  }
